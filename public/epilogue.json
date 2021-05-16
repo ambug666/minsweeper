@@ -1,0 +1,33 @@
+{
+    "template": [],
+    "zoom": 1,
+    "tiles": { "EMPTY": "carpet_c2", "BOMB": "carpet_c2", "DISPLAY": "carpet_c2", "UNKNOWN": "carpet_c" },
+    "difficulty": 0.12,
+    "backgroundColor": "#1a1e1e",
+    "dialog": {
+        "backgroundColor": "red",
+        "textColor": "black",
+        "text": [[
+        {
+            "text": "So, now we meet.",
+            "reply": "Yes."
+        },
+        {
+            "text": "You have gotten through all of my traps.",
+            "reply": "Yes."
+        },
+        {
+            "text": "And I suppose you want your stolen goods back.",
+            "reply": "Yes."
+        },
+        {
+            "text": "Very well. Here you go. Sleep tight.",
+            "replies": [{
+                "text": "Good night and leave me alone.",
+                "value": "mcguffin",
+                "next": 0
+                }]
+        }
+    ]]},
+    "next": ""
+}

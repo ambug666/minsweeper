@@ -1,0 +1,53 @@
+{
+    "template": [
+         ["grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","produce1/grass","produce1/grass","grass","grass"],
+         ["grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","produce2/grass","produce2/grass","grass","grass"],
+         ["grass","grass","","","","","","","","","","","","","","","","","","","","","","","","","","","grass","grass"],
+         ["grass","grass","","","","","","","","","","","","","","","","","","","","","","","","","","","grass","grass"],
+         ["grass","grass","","","","","","","","","","","","","","","","","","","","","","","","","","","grass","grass"],
+         ["grass","grass","","","","fence-end-right/grass","fence/grass","fence-end-left/grass","","","","","grass","grass","grass","","","","","fence-end-right/grass","fence/grass","fence-end-left/grass","","","","","","","grass","grass"],
+         ["grass","grass","","","","grass","statue_u/grass","grass","","","","","grass","statue_u/grass","grass","","","","","grass","statue_u/grass","grass","","","","","","","grass","grass"],
+         ["grass","grass","","","","grass","statue_b/grass","grass","","","","","grass","statue_b/grass","grass","","","","","grass","statue_b/grass","grass","","","","","","","grass","grass"],
+         ["grass","grass","","","","fence-end-right/grass","fence/grass","fence-end-left/grass","","","","","sign/grass","grass","grass","","","","","fence-end-right/grass","fence/grass","fence-end-left/grass","","","","","","","grass","grass"],
+         ["grass","grass","","","","","","","","","","","","","","","","","","","","","","","","","","","grass","grass"],
+         ["grass","grass","","","","","","","","","","","","","","","","","","","","","","","","","","","grass","grass"],
+         ["grass","grass","","","","","","","","","","","","","","","","","","","","","","","","","","","grass","grass"],
+         ["grass","grass","","","","","","","","","","","","","","","","","","","","","","","","","","","grass","grass"],
+         ["grass","grass","","","","fence-end-right/grass","fence/grass","fence-end-left/grass","","","","","grass","grass","grass","","","","","fence-end-right/grass","fence/grass","fence-end-left/grass","","","","","","","grass","grass"],
+         ["grass","grass","","","","grass","statue_u/grass","grass","","","","","grass","statue_u/grass","grass","","","","","grass","statue_u/grass","grass","","","","","","","grass","grass"],
+         ["grass","grass","","","","grass","statue_b/grass","grass","","","","","grass","statue_b/grass","grass","","","","","grass","statue_b/grass","grass","","","","","","","grass","grass"],
+         ["grass","grass","","","","fence-end-right/grass","fence/grass","fence-end-left/grass","","","","","sign/grass","grass","grass","","","","","fence-end-right/grass","fence/grass","fence-end-left/grass","","","","","","","grass","grass"],
+         ["grass","grass","","","","","","","","","","","","","","","","","","","","","","","","","","","grass","grass"],
+         ["grass","grass","","","","","","","","","","","","","","","","","","","","","","","","","","","grass","grass"],
+         ["grass","full-bucket/grass","","","","","","","","","","","","","","","","","","","","","","","","","","","grass","grass"],
+         ["grass","grass","flower/grass","flower/grass","flower/grass","flower/grass","flower/grass","flower/grass","flower/grass","flower/grass","flower/grass","bush/grass","dirt","dirt","dirt","bush/grass","flower/grass","flower/grass","flower/grass","flower/grass","flower/grass","flower/grass","flower/grass","flower/grass","flower/grass","flower/grass","flower/grass","flower/grass","grass","grass"],
+         ["grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","bush/grass","dirt","dirt","dirt","bush/grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","sign/grass","grass","grass"],
+         ["dirt","dirt","dirt","dirt","dirt","dirt","dirt","dirt","dirt","dirt","dirt","dirt","dirt","dirt","dirt","dirt","dirt","dirt","dirt","dirt","dirt","dirt","dirt","dirt","dirt","dirt","dirt","dirt","dirt","dirt"]
+
+    ],
+    "zoom": 1.15,
+    "tiles": { "EMPTY": "cobblestones2","BOMB": "cobblestones2", "DISPLAY": "cobblestones2", "UNKNOWN": "cobblestones" },
+    "trap": "bomb",
+    "difficulty": 0.12,
+    "bigtrap": "missile",
+    "bignumber": 3,
+    "restartText": "You've been blown to pieces! Want to try the level again?",
+    "dialog": {
+        "backgroundColor": "red",
+        "text": [[
+        {
+            "text": "Do you like my collection of fine statuary?",
+            "reply": "They... all look the same."
+        },
+        {
+            "text": "Well, yes. But there is a good reason for that.",
+            "reply": "Did you steal them all?"
+        },
+        {
+            "text": "Oh no, but if you continue on as you've been doing you'll find out eventually.",
+            "reply": "Great..."
+        }
+        ]
+        ]},
+    "next": "interlude"
+}

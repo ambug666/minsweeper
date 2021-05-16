@@ -1,0 +1,115 @@
+{
+    "template": [
+        ["grass","grass","grass","grass","grass","tree_l/grass", "tree_r/grass","grass","grass","tree_bl/grass", "tree_br/grass","grass","grass","produce1/grass"],
+        ["grass","grass","rock/grass","grass","grass","tree_bl/grass", "tree_br/grass","grass","grass","grass","grass","grass","grass","grass"],
+        ["grass","grass","","","","","","","","","","","grass","grass"],
+        ["tree_ul/grass", "tree_ur/grass","","","","","","","","","","","grass","grass"],
+        ["tree_l/grass", "tree_r/grass","","","","","","","","","","","small-yellow-tree/grass","grass"],
+        ["tree_bl/grass", "tree_br/grass","","","","","","","","","","","small-yellow-tree/grass","small-yellow-tree/grass"],
+        ["grass","rock2/grass","","","","","","","","","","","grass","grass"],
+        ["grass","grass","","","","","","","","","","","grass","grass"],
+        ["grass","grass","","","","","","","","","","","grass","stump/grass"],
+        ["grass","grass","","","","","","","","","","","grass","grass"],
+        ["grass","grass","","","","","","","","","","","grass","grass"],
+        ["rock2/grass","rock/grass","","","","","","","","","","","tree_ul/grass", "tree_ur/grass"],
+        ["grass","grass","grass","sign/grass","grass","grass","grass","grass","grass","grass","grass","grass","tree_l/grass", "tree_r/grass"],
+        ["grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","rock3/grass","tree_bl/grass", "tree_br/grass"]
+    ],
+    "zoom": 1.25,
+    "tiles": { "EMPTY": "dirt2","BOMB": "dirt2", "DISPLAY": "dirt2", "UNKNOWN": "dirt" },
+    "trap": "trap",
+    "difficulty": 0.16,
+    "bigtrap": "missile",
+    "bignumber": 2,
+    "restartText": "You've been blown to pieces! Want to try the level again?",
+    "dialog": {
+        "backgroundColor": "red",
+        "text": [[
+        {
+            "text": "Hello. Would you like to be part of an experiment?",
+            "replies": [{"text": "Sure!", "next": 1},{"text": "Not really.", "next": 2},{"text": "Will I get my stolen item back?", "next": 3}]
+        }
+        ],[
+        {
+            "text": "I appreciate your enthusiasm.",
+            "reply": "Well, thank you."
+        },
+        {
+            "text": "This is my most fiendish invention yet.",
+            "reply": "Oh?"
+        },
+        {
+            "text": "Yes, you stumbled across my testing grounds.",
+            "reply": "This doesn't look so bad."
+        },
+        {
+            "text": "Ah, but what you don't know is that this field has two of my super mines!",
+            "reply": "Ok, what are super mines?"
+        },
+        {
+            "text": "They are mines so powerful that they affect the numbers around them, causing the numbers two spaces away to be one greater.",
+            "reply": "And the numbers next to them?"
+        },
+        {
+            "text": "The numbers directly next to them are unaffected.",
+            "reply": "OK, got it."
+        },
+        {
+            "text": "Now these are still a work in progress, so they give off a slight yellow aura. So if the space is yellow, you are in range.",
+            "reply": "Yellow numbers might be larger, got it."
+        },
+        {
+            "text": "Very good! Thank you for testing this!",
+            "reply": "Wait, did I really have a choice?"
+        },
+        {
+            "text": "No, of course not. Good luck!",
+            "replies": [{"text": "Er, thanks.", "next": 4, "value": "love"}]
+        }
+        ],[
+        {
+            "text": "Too bad. As a villain, I find that unenthusiastic volunteers make the best ones.",
+            "replies": [{"text": "Sigh. Ok, tell me about this experiment.", "next": 4}]
+        }
+        ],[
+        {
+            "text": "Probably not, but you will need to get through this to get to my tower.",
+            "replies": [{"text": "Of course. So what is this experiment?", "next": 4}]
+        }
+        ],
+        [
+        {
+            "text": "This is my most fiendish invention yet.",
+            "reply": "Oh?"
+        },
+        {
+            "text": "Yes, you stumbled across my testing grounds.",
+            "reply": "This doesn't look so bad."
+        },
+        {
+            "text": "Ah, but what you don't know is that this field has two of my super mines!",
+            "reply": "Ok, what are super mines?"
+        },
+        {
+            "text": "They are mines so powerful that they affect the numbers around them, causing the numbers two spaces away to be one greater.",
+            "reply": "And the numbers next to them?"
+        },
+        {
+            "text": "The numbers directly next to them are unaffected.",
+            "reply": "OK, got it."
+        },
+        {
+            "text": "Now these are still a work in progress, so they give off a slight yellow aura. So if the space is yellow, you are in range.",
+            "reply": "Yellow numbers might be larger, got it."
+        },
+        {
+            "text": "Very good! Thank you for testing this!",
+            "reply": "Wait, did I really have a choice?"
+        },
+        {
+            "text": "No, of course not. Good luck!",
+            "reply": "Er, thanks."
+        }]
+        ]},
+    "next": "statuary"
+}

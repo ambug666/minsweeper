@@ -1,0 +1,99 @@
+.splash-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    background-color: #257e2a;
+    color: white;
+    font-size: large;
+    padding: 10px 10px 10px 10px;
+}
+
+.inner-splash-screen {
+    max-width: 640px;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.splash-screen-columns {
+    display: grid;
+    grid-template-columns: 61% auto;
+}
+
+.splash-button-container {
+    padding-right: 14px;
+}
+
+.splash-button {
+    transition: 0.3s;
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+    margin-top: 6px;
+    color: white;
+    background-color: #257e2a;
+    border: 2px solid black;
+}
+
+.splash-button:hover {
+    background-color: #6fbe73;
+    border: 2px solid black;
+    color: black;
+    transition: 0.3s;
+}
+
+.splash-options-container {
+    margin-bottom: 8px;
+    margin-top: 6px;
+    padding: 5px 15px 5px 15px;
+    border: 1px solid white;
+    background-color: #51ac56;
+    border-radius: 4px;
+}
+
+.splash-options-container:before {
+    content: '';
+    transform: translateX(-50%);
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 3px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid white;
+}
+
+.splash-radio-button {
+    margin-left: 0px;
+    padding-left: 0px;
+    cursor: pointer;
+}
+
+.splash-progress {
+    margin-top: 8px;
+    display: flex;
+}
+
+.splash-checkbox {
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.splash-subtitle {
+    font-size: normal;
+    font-style: italic;
+    margin-bottom: 6px;
+}
+
+.splass-progress-text {
+    margin-left: 4px;
+}

@@ -1,0 +1,64 @@
+.hints-box {
+    position: absolute;
+    z-index: 500;
+    top: 60px;
+    border: 2px solid gray;
+    background-color: rgba(197, 175, 223, 0.9);
+    border-radius: 5px;
+    padding: 18px 18px 18px 18px;
+    width: 480px;
+}
+
+.hints-box-click {
+    cursor: pointer;
+}
+
+.hints-title {
+    color: darkslateblue;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.hints-instructions {
+    color: darkslateblue;
+    font-weight: bold;
+}
+
+.hints-text {
+    margin-bottom: 8px;
+}
+
+.hints-footer {
+    display: flex;
+    justify-content: flex-end;
+    height: 38px;
+}
+
+.hints-button {
+    transition: 0.3s;
+    font-family: "Arial Rounded MT Bold", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 8px;
+    cursor: pointer;
+    border-radius: 16px;
+    outline: none;
+    position: absolute;
+    margin-top: 6px;
+}
+
+.hints-ok {
+    color: lightyellow;
+    background-color: darkgreen;
+    border: 2px solid green;
+}
+
+.hints-ok:hover {
+    background-color: green;
+    border: 2px solid darkgreen;
+    color: lightyellow;
+    transition: 0.3s;
+}

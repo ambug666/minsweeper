@@ -1,0 +1,119 @@
+{
+    "template": [
+        ["castle-wall-u","castle-wall-u","castle-wall-u","castle-wall-u","castle-wall-u","castle-wall-u","window-u/castle-wall-u","castle-wall-u","castle-wall-u","castle-wall-u","castle-wall-u","castle-wall-u","castle-wall-u","castle-wall-u","castle-wall-u","castle-wall-u","castle-wall-u","castle-wall-u","castle-wall-u","castle-wall-u","window-u/castle-wall-u","castle-wall-u","castle-wall-u","castle-wall-u","castle-wall-u","castle-wall-u","castle-wall-u"],
+        ["castle-wall-u","castle-wall-u","candalabra-01/castle-wall-u","castle-wall-u","castle-wall-u","castle-wall-u","window-b/castle-wall-u","castle-wall-u","castle-wall-u","castle-wall-u","castle-wall-u","castle-wall-u","picture-01/castle-wall-u","picture-02/castle-wall-u","picture-03/castle-wall-u","castle-wall-u","castle-wall-u","castle-wall-u","castle-wall-u","castle-wall-u","window-b/castle-wall-u","castle-wall-u","castle-wall-u","castle-wall-u","candalabra-01/castle-wall-u","castle-wall-u","castle-wall-u"],
+        ["castle-wall-b","castle-wall-b","candalabra-02/castle-wall-b","castle-wall-b","castle-wall-b","castle-wall-b","castle-wall-b","castle-wall-b","castle-wall-b","castle-wall-b","castle-wall-b","castle-wall-b","castle-wall-b","castle-wall-b","castle-wall-b","castle-wall-b","castle-wall-b","castle-wall-b","castle-wall-b","castle-wall-b","castle-wall-b","castle-wall-b","castle-wall-b","castle-wall-b","candalabra-02/castle-wall-b","castle-wall-b","castle-wall-b"],
+        ["shadow/floor","floor","candalabra-03/floor","floor","","","","","","","","","","","","","","","","","","","","floor","candalabra-03/floor","floor","floor"],
+        ["shadow/floor","floor","floor","floor","","","","","","","","","","","","","","","","","","","","floor","floor","floor","floor"],
+        ["shadow/floor","floor","floor","floor","","","","","","","","","","","","","","","","","","","","floor","floor","floor","floor"],
+        ["shadow/floor","","","","","","","","","","","","","","","","","","","","","","","","","","floor"],
+        ["shadow/floor","","","","","","","","","","","","","","","","","","","","","","","","","","floor"],
+        ["shadow/floor","","","","","","","","","","","","","","","","","","","","","","","","","","floor"],
+        ["shadow/floor","","","","","","","","","","","","","","","","","","","","","","","","","","floor"],
+        ["shadow/floor","","","","","","","","","","","","","","","","","","","","","","","","","","floor"],
+        ["shadow/floor","","","","","","","","","","","","","","","","","","","","","","","","","","floor"],
+        ["shadow/floor","","","","","","","","","","","","","","","","","","","","","","","","","","floor"],
+        ["shadow/floor","","","","","","","","","","","","","","","","","","","","","","","","","","floor"],
+        ["shadow/floor","","","","","","","","","","","","","","","","","","","","","","","","","","floor"],
+        ["shadow/floor","","","","","","","","","","","","","","","","","","","","","","","","","","floor"],
+        ["shadow/floor","","","","","","","","","","","","","","","","","","","","","","","","","","floor"],
+        ["shadow/floor","","","","","","","","","","","","","","","","","","","","","","","","","","floor"],
+        ["shadow/floor","","","","","","","","","","","","","","","","","","","","","","","","","","floor"],
+        ["shadow/floor","","","","","","","","","","","","","","","","","","","","","","","","","","floor"],
+        ["shadow/floor","floor","floor","floor","","","","","","","","","","","","","","","","","","","","floor","floor","floor","floor"],
+        ["shadow/floor","floor","planter/floor","floor","","","","","","","","","","","","","","","","","","","","floor","planter/floor","floor","floor"],
+        ["shadow/floor","floor","floor","floor","","","","","","","","","","","","","","","","","","","","floor","floor","floor","floor"]
+        ],
+    "zoom": 1.0,
+    "tiles": { "EMPTY": "cobblestones2","BOMB": "cobblestones2", "DISPLAY": "cobblestones2", "UNKNOWN": "cobblestones" },
+    "trap": "mine",
+    "difficulty": 0.12,
+    "bigtrap": "missile",
+    "bignumber": 4,
+    "statue": {"row": 12, "column": 13},
+    "restartText": "You've been blown to pieces! Want to try the level again?",
+    "dialog": {
+        "backgroundColor": "red",
+        "text": [[
+        {
+            "text": "So, you made it across the moat. Figures. Well, welcome to the inside of my tower.",
+             "replies": [{"text": "This is surprisingly spacious.", "next": 2}, {"text": "Where is the thing you stole from me?", "next": 1}]
+        }],
+        [
+        {
+            "text": "Ah, quick and to the point. You will have to face my guardian first, though. It's the statue in the middle of the room.",
+             "replies": [{"text": "You said the moat was your last line of defense.", "next": 3}]
+        }],
+        [
+        {
+            "text": "Thank you. I've found a minimalist open design can do wonders with the feel of a space.",
+             "reply": "I especially like the candelabras."
+        },
+        {
+            "text": "What do you think of the statue in the center of the floor?",
+             "reply": "Isn't that the same one as from your statuary garden?"
+        },
+        {
+            "text": "Yes, but with one special difference. I've adjusted this one to be my guardian.",
+             "reply": "You said the moat was your last line of defense."
+        },
+        {
+            "text": "I lied. I am still a villain, after all.",
+             "reply": "Ok, so how does this statue act as your guardian?"
+        },
+        {
+            "text": "It moves around, blocking your access to defusing certain spaces. It only moves when you reveal a tile and it always moves if it can.",
+             "reply": "Does it move in any particular direction?"
+        },
+        {
+            "text": "Yes, it will always move toward where you clicked, although it can only move one square at a time, and never diagonally.",
+             "reply": "Well, I suppose I can work around that."
+        },
+        {
+            "text": "You will have to because if you let it get too close, you are doomed!",
+             "reply": "How so?"
+        },
+        {
+            "text": "If, when it moves, my guardian lands on the spot you just clicked, then it will explode all the bombs!",
+             "reply": "That does sound bad."
+        },
+        {
+            "text": "And I have some super bombs too. No moving bombs, though. They are bad for the linoleum.",
+             "reply": "Bombs with yellow squares, too. Got it."
+        },
+        {
+            "text": "So to summarize: the statue will move toward you when you click on an unknown space. If it moves onto that space, you are blown up. It only moves a space at a time, so you just need to keep away.",
+             "replies": [{"text": "Daunting, but I will persevere!", "next": 0, "value": "love"}]
+        }],
+        [
+        {
+            "text": "I lied. I am still a villain, after all.",
+             "reply": "Ok, so how does this statue act as your guardian?"
+        },
+        {
+            "text": "It moves around, blocking your access to defusing certain spaces. It only moves when you reveal a tile and it always moves if it can.",
+             "reply": "Does it move in any particular direction?"
+        },
+        {
+            "text": "Yes, it will always move toward where you clicked, although it can only move one square at a time, and never diagonally.",
+             "reply": "Well, I suppose I can work around that."
+        },
+        {
+            "text": "You will have to because if you let it get too close, you are doomed!",
+             "reply": "How so?"
+        },
+        {
+            "text": "If, when it moves, my guardian lands on the spot you just clicked, then it will explode all the bombs!",
+             "reply": "That does sound bad."
+        },
+        {
+            "text": "And I have some super bombs too. No moving bombs, though. They are bad for the linoleum.",
+             "reply": "Bombs with yellow squares, too. Got it."
+        },
+        {
+            "text": "So to summarize: the statue will move toward you when you click on an unknown space. If it moves onto that space, you are blown up. It only moves a space at a time, so you just need to keep away.",
+             "reply": "Daunting, but I will persevere!"
+        }]
+        ]},
+    "next": "epilogue"
+}

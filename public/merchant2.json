@@ -1,0 +1,43 @@
+{
+    "template": [
+    ["water", "water", "left-bank", "wildgrass", "wildgrass", "wildgrass", "grass", "grass", "grass", "grass", "grass", "rock/grass"],
+    ["water", "top-left-bank", "wildgrass", "wildgrass", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass"],
+    ["top-bank", "wildgrass", "wildgrass", "grass", "wildgrass", "grass", "grass", "grass", "grass", "grass", "grass", "grass"],
+    ["wildgrass", "wildgrass", "grass", "grass", "grass", "grass", "wildgrass", "grass", "grass", "grass", "grass", "grass"],
+    ["grass", "wildgrass", "grass", "grass", "grass", "grass", "grass", "house_ul/grass", "house_u/grass", "house_ur/grass", "grass", "grass"],
+    ["grass", "grass", "grass", "grass", "wildgrass", "grass", "produce1/grass", "house_l/grass", "house_c/grass", "house_r/grass", "grass", "grass"],
+    ["grass", "grass", "grass", "grass", "grass", "grass", "produce2/grass", "house_bl/grass", "house_b/dirt", "house_br/grass", "full-bucket/grass", "grass"],
+    ["tree_ul/grass", "tree_ur/grass", "grass", "grass", "grass", "grass", "grass", "grass", "dirt", "sign/grass", "grass", "grass"],
+    ["tree_l/grass", "tree_r/grass", "grass", "grass", "grass", "rock3/grass", "grass", "grass", "dirt", "grass", "grass", "grass"],
+    ["tree_bl/grass", "tree_br/grass", "grass", "grass", "grass", "grass", "grass", "bush/grass", "dirt", "bush/grass", "grass", "grass"],
+    ["dirt", "dirt", "dirt", "dirt", "dirt", "dirt", "dirt", "dirt", "dirt", "dirt", "dirt", "dirt"]
+    ],
+    "zoom": 1.5,
+    "tiles": { "EMPTY": "dirt2","BOMB": "dirt2", "DISPLAY": "dirt2", "UNKNOWN": "dirt" },
+    "difficulty": 0.14,
+    "dialog": {
+        "backgroundColor": "white",
+        "text": [[
+        {
+            "text": "Hello there! Are you really going to confront the Villain who lives in that nearby tower?",
+            "reply": "Yup."
+        },
+        {
+            "text": "That's not going to be easy. There are a lot of traps, bombs, and mines along the way. But I could help you!",
+            "reply": "Thanks!"
+        },
+        {
+            "text": "I have a pick that will make your first check of a minefield more efficient and I have a magic mirror that reveals the location of a few mines when you first check. Which would you like?",
+            "replies": [{
+                "text": "I'll take the pick.",
+                "value": "pick",
+                "next": 0
+                }, {
+                "text": "I'd like the mirror.",
+                "value": "mirror",
+                "next": 0
+                }]
+        }
+    ]]},
+    "next": "test"
+}

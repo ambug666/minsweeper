@@ -1,0 +1,36 @@
+.dialogContainer {
+  display: block;
+  z-index: 1000;
+}
+
+.dialogBox {
+  background-repeat: no-repeat;
+  width: 430px;
+  height: 134px;
+  padding-left: 25px;
+  padding-top: 25px;
+  padding-right: 100px;
+}
+
+.dialogText {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.dialogFooter {
+  background-repeat: no-repeat;
+  width: 210px;
+  height: 72px;
+  cursor: pointer;
+  font-size: 1.0rem;
+  font-weight: bold;
+  margin-left: 25px;
+  padding-left: 20px;
+  padding-top: 12px;
+  padding-right: 100px;
+}
+
+.dialog-click-me {
+  width: 100%;
+  text-align: right;
+}

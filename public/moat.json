@@ -1,0 +1,54 @@
+{
+    "template": [
+        ["wildgrass","wildgrass","wildgrass","bottom-bank","bottom-bank","bottom-bank","bottom-bank","bottom-bank","bottom-bank","bottom-bank","bottom-bank","bottom-bank","tower-01/bottom-bank","tower-02/bottom-bank","tower-03/bottom-bank","bottom-bank","bottom-bank","bottom-bank","bottom-bank","bottom-bank","bottom-bank","bottom-bank","bottom-bank","bottom-bank","wildgrass","wildgrass","rock/wildgrass"],
+        ["wildgrass","wildgrass","bottom-right-bank","","","","","","","","","","tower-04/water","tower-05/water","tower-06/water","","","","","","","","","","bottom-left-bank","wildgrass","wildgrass"],
+        ["wildgrass","bottom-right-bank","","","","","","","","","","","tower-07/water","tower-08/water","tower-09/water","","","","","","","","","","","bottom-left-bank","wildgrass"],
+        ["right-bank","","","","","","","","","","","","tower-10/water","tower-11/water","tower-12/water","","","","","","","","","","","","left-bank"],
+        ["right-bank","","","","","","","","","","","","tower-13/water","tower-14/water","tower-15/water","","","","","","","","","","","","left-bank"],
+        ["right-bank","","","","","","","","","","","","tower-16/water","tower-17/water","tower-18/water","","","","","","","","","","","","left-bank"],
+        ["right-bank","","","","","","","","","","","","tower-19/water","tower-20/water","tower-21/water","","","","","","","","","","","","left-bank"],
+        ["right-bank","","","","","","","","","","","bucket/top-left-bank","tower-22/top-bank","tower-23/top-bank","tower-24/top-bank","top-right-bank","","","","","","","","","","","left-bank"],
+        ["right-bank","","","","","","","","","","","left-bank","tower-25/cobblestones","tower-26/cobblestones","tower-27/cobblestones","right-bank","","","","","","","","","","","left-bank"],
+        ["right-bank","","","","","","","","","","top-left-bank","bush/wildgrass","tower-28/cobblestones","tower-29/cobblestones","tower-30/cobblestones","bush/wildgrass","top-right-bank","","","","","","","","","","left-bank"],
+        ["right-bank","","","","","","","","","","bottom-left-bank","bush/wildgrass","tower-31/cobblestones","tower-32/cobblestones","tower-33/cobblestones","bush/bottom-bank","bottom-right-bank","","","","","","","","","","left-bank"],
+        ["right-bank","","","","","","","","","","","bottom-left-bank","bottom-water-overlay/cobblestones","bottom-water-overlay/cobblestones","bottom-right-water-overlay/cobblestones","","","","","","","","","","","","left-bank"],
+        ["right-bank","","","","","","","","","","","","","","","","","","","","","","","","","","left-bank"],
+        ["rock2/right-bank","","","","","","","","","","","","","","","","","","","","","","","","","","left-bank"],
+        ["right-bank","","","","","","","","","","","","","","","","","","","","","","","","","","left-bank"],
+        ["right-bank","","","","","","","","","","","","","","","","","","","","","","","","","","left-bank"],
+        ["wildgrass","top-right-bank","","","","","","","","","","","","","","","","","","","","","","","","top-left-bank","wildgrass"],
+        ["wildgrass","wildgrass","top-right-bank","","","","","","","","","","","","","","","","","","","","","top-left-bank","top-bank","tree_ul/wildgrass","tree_ur/wildgrass"],
+        ["wildgrass","wildgrass","wildgrass","top-bank","top-bank","top-bank","top-bank","top-bank","top-bank","top-bank","top-bank","top-bank","dirt","dirt","dirt","sign/top-bank","top-bank","top-bank","top-bank","top-bank","top-bank","top-bank","top-bank","wildgrass","wildgrass","tree_l/wildgrass","tree_r/wildgrass"],
+        ["wildgrass","wildgrass","wildgrass","wildgrass","wildgrass","wildgrass","wildgrass","wildgrass","wildgrass","wildgrass","wildgrass","wildgrass","dirt","dirt","dirt","wildgrass","wildgrass","wildgrass","wildgrass","wildgrass","wildgrass","wildgrass","wildgrass","wildgrass","rock3/wildgrass","tree_bl/wildgrass","tree_br/wildgrass"]
+    ],
+    "zoom": 1.1,
+    "tiles": { "EMPTY": "water2","BOMB": "water2", "DISPLAY": "water2", "UNKNOWN": "water" },
+    "trap": "mine",
+    "difficulty": 0.12,
+    "movingtrap": "fish",
+    "movingnumber": 7,
+    "bigtrap": "missile",
+    "bignumber": 4,
+    "restartText": "You've been blown to pieces! Want to try the level again?",
+    "dialog": {
+        "backgroundColor": "red",
+        "text": [[
+        {
+            "text": "Well, welcome to my tower.",
+            "reply": "I can't get in."
+        },
+        {
+            "text": "No, of course not. In order to get to my tower, you will have to cross the moat.",
+            "reply": "And it has piranha?"
+        },
+        {
+            "text": "Now you're catching on. I keep my moat well stocked with piranha. Also super mines!",
+            "reply": "The ones with the annoying yellow squares?"
+        },
+        {
+            "text": "Yes those! Good luck! This moat is my last line of defense.",
+            "reply": "I'll see you soon!"
+        }]
+        ]},
+    "next": "final"
+}

@@ -1,0 +1,68 @@
+{
+    "template": [],
+    "zoom": 1,
+    "tiles": { "EMPTY": "carpet_c2", "BOMB": "carpet_c2", "DISPLAY": "carpet_c2", "UNKNOWN": "carpet_c" },
+    "difficulty": 0.12,
+    "backgroundColor": "#1a1e1e",
+    "dialog": {
+        "backgroundColor": "red",
+        "screenColor": "#1a1e1e",
+        "textColor": "black",
+        "text": [[
+        {
+            "text": "So, now we meet.",
+            "reply": "Yes."
+        },
+        {
+            "text": "You have gotten through all of my traps.",
+            "reply": "Yes."
+        },
+        {
+            "text": "And I know that I have stolen something from you.",
+            "reply": "Yes."
+        },
+        {
+            "text": "But what you don't know is that though your words, you have stolen something from me as well... my heart.",
+            "reply": "What?"
+        },
+        {
+            "text": "Yes, your kind words have touched me and you have stolen my heart.",
+            "replies": [{
+                "text": "Aw, you have totally stolen my heart too.",
+                "next": 2
+                },
+                {
+                "text": "That's just wrong. Return my stolen goods!",
+                "next": 1
+                }]
+        }],[
+        {
+            "text": "... Fine. Here you go.",
+            "replies": [
+                {
+                "text": "Now leave me alone!",
+                "value": "mcguffin",
+                "next": 0
+                }]
+        }
+        ],[
+        {
+            "text": "Really? How wonderful!",
+            "replies": [
+                {
+                "text": "Maybe you aren't quite the villain you say you are."
+                }]
+        },
+        {
+            "text": "Maybe... Would you like to go out for ice cream?",
+            "replies": [
+                {
+                "text": "How about breakfast? You woke me up early after all.",
+                "value": "end-love",
+                "next": 0
+                }]
+        }
+        ]
+    ]},
+    "next": ""
+}

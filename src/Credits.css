@@ -1,0 +1,63 @@
+.credits-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    background-color: #257e2a;
+    color: white;
+    font-size: large;
+    padding: 10px 10px 10px 10px;
+}
+
+.inner-credits-screen {
+    max-width: 640px;
+}
+
+.credits-title {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.credits-text {
+    margin-bottom: 10px; 
+    display: flex;
+    align-items: center;
+}
+
+.credits-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.credits-button {
+    transition: 0.3s;
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+    margin-top: 6px;
+    color: white;
+    background-color: #257e2a;
+    border: 2px solid white;
+    width: 120px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.credits-button:hover {
+    background-color: #6fbe73;
+    border: 2px solid white;
+    color: white;
+    transition: 0.3s;
+}
+
+.credits-icon {
+    margin-right: 8px;
+}

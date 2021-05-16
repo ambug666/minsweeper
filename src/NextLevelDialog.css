@@ -1,0 +1,51 @@
+.next-level-box {
+    border: 2px solid gray;
+    background-color: rgba(236, 236, 252, 0.8);
+    border-radius: 5px;
+    padding: 18px 18px 18px 18px;
+}
+
+.next-level-title {
+    color: darkblue;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.next-level-text {
+    margin-bottom: 8px;
+}
+
+.next-level-footer {
+    display: flex;
+    justify-content: flex-end;
+    height: 38px;
+}
+
+.next-level-button {
+    transition: 0.3s;
+    font-family: "Arial Rounded MT Bold", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 8px;
+    cursor: pointer;
+    border-radius: 16px;
+    outline: none;
+    position: absolute;
+    margin-top: 6px;
+}
+
+.next-level-ok {
+    color: lightyellow;
+    background-color: darkblue;
+    border: 2px solid blue;
+}
+
+.next-level-ok:hover {
+    background-color: blue;
+    border: 2px solid darkblue;
+    color: lightyellow;
+    transition: 0.3s;
+}

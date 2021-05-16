@@ -1,0 +1,19 @@
+.drag-flag-box {
+  display: flex;
+  background-repeat: no-repeat;
+  width: 192px;
+  height: 54px;
+  padding-left: 16px;
+  padding-right: 100px;
+  align-items: center;
+}
+
+.drag-flag-text {
+  font-size: 9pt;
+  font-weight: bold;
+  color: black;
+}
+
+.drag-flag-box-items {
+  display: flex;
+}

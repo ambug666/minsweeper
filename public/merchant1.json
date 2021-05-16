@@ -1,0 +1,47 @@
+{
+    "template": [
+    ["grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass"],
+    ["grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass"],
+    ["grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass"],
+    ["grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass"],
+    ["grass", "grass", "grass", "grass", "grass", "grass", "grass", "house_ul/grass", "house_u/grass", "house_ur/grass", "grass", "grass"],
+    ["grass", "grass", "grass", "grass", "grass", "grass", "grass", "house_l/grass", "house_c/grass", "house_r/grass", "grass", "grass"],
+    ["grass", "grass", "grass", "grass", "grass", "grass", "grass", "house_bl/grass", "house_b/dirt", "house_br/grass", "full-bucket/grass", "grass"],
+    ["tree_ul/grass", "tree_ur/grass", "grass", "grass", "grass", "grass", "grass", "grass", "dirt", "sign/grass", "grass", "grass"],
+    ["tree_l/grass", "tree_r/grass", "grass", "grass", "grass", "stump/grass", "grass", "grass", "dirt", "grass", "grass", "grass"],
+    ["tree_bl/grass", "tree_br/grass", "grass", "grass", "grass", "grass", "grass", "bush/grass", "dirt", "bush/grass", "grass", "grass"],
+    ["dirt", "dirt", "dirt", "dirt", "dirt", "dirt", "dirt", "dirt", "dirt", "dirt", "dirt", "dirt"]
+    ],
+    "zoom": 1.5,
+    "tiles": { "EMPTY": "dirt2","BOMB": "dirt2", "DISPLAY": "dirt2", "UNKNOWN": "dirt" },
+    "difficulty": 0.14,
+    "dialog": {
+        "backgroundColor": "white",
+        "text": [[
+        {
+            "text": "Hello there! Travelling over the river?",
+            "reply": "Yup."
+        },
+        {
+            "text": "Well, bad news. The bridge is out. Some villain blew it up.",
+            "reply": "Of course they did."
+        },
+        {
+            "text": "You might be able to ford the river, but it's dangerous.",
+            "reply": "Makes sense."
+        },
+        {
+            "text": "I can help you out though. I have a shield that protects you, and a spell for revealing things. Want one?",
+            "replies": [{
+                "text": "I'll take the shield.",
+                "value": "shield",
+                "next": 0
+                }, {
+                "text": "I'd like the spell.",
+                "value": "spell",
+                "next": 0
+                }]
+        }
+    ]]},
+    "next": "river"
+}

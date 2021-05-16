@@ -1,0 +1,44 @@
+{
+    "template": [
+    ["grass","grass", "grass", "grass", "grass", "rock/grass", "path", "path", "path", "grass", "grass", "grass","grass", "grass","grass"],
+    ["grass","grass", "grass", "grass", "grass", "grass", "path", "path", "path", "grass", "grass", "grass","rock/grass", "grass","grass"],
+    ["fence/grass","fence/grass", "fence/grass", "fence/grass", "fence/grass", "fence/grass", "fence-end-left/path", "path", "fence-end-right/path", "fence/grass", "fence/grass", "fence/grass","fence/grass", "fence/grass","fence/grass"],
+    ["grass", "grass", " ", " ", " ", " ", " ", " ", " ", " ", " "," ", " ","grass", "grass"],
+    ["grass", "grass", " ", " ", " ", " ", " ", " ", " ", " ", " "," ", " ","grass", "grass"],
+    ["grass", "grass", " ", " ", " ", " ", " ", " ", " ", " ", " "," ", " ","grass", "grass"],
+    ["grass", "grass", " ", " ", "rock/grass", " ", " ", " ", " ", " ", " "," ", " ","grass", "grass"],
+    ["grass", "grass", " ", " ", " ", " ", " ", " ", " ", " ", " "," ", " ","grass", "grass"],
+    ["grass", "grass", " ", " ", " ", " ", " ", " ", " ", " ", " "," ", " ","grass", "grass"],
+    ["grass", "grass", " ", " ", " ", " ", " ", " ", " ", " ", " "," ", " ","grass", "grass"],
+    ["grass", "grass", " ", " ", " ", " ", " ", " ", " ", " ", " "," ", " ","grass", "grass"],
+    ["grass", "grass", " ", " ", " ", " ", " ", " ", " ", " ", " "," ", " ","grass", "grass"],
+    ["grass", "grass", " ", " ", " ", " ", " ", " ", " ", " ", " "," ", " ","grass", "grass"],
+    ["grass","grass", "grass", "grass", "grass", "bush/grass", "path", "path", "path", "bush/grass", "grass", "grass","grass", "grass","grass"],
+    ["grass","grass", "grass", "grass", "grass", "bush/grass", "path", "path", "path", "bush/grass", "grass", "grass","grass", "grass","grass"],
+    ["grass","grass", "grass", "grass", "grass", "bush/grass", "path", "path", "path", "bush/grass", "grass", "grass","grass", "grass","grass"]
+    ],
+    "zoom": 1.25,
+    "tiles": { "EMPTY": "dirt2","BOMB": "dirt2", "DISPLAY": "dirt2", "UNKNOWN": "dirt" },
+    "difficulty": 0.14,
+    "dialog": {
+        "backgroundColor": "red",
+        "text": [[
+        {
+            "text": "Huh. You made it out of your house!",
+            "reply": "Yup."
+        },
+        {
+            "text": "I have to say, I didn't expect that.",
+            "reply": "Ok..."
+        },
+        {
+            "text": "But you will never defeat me!",
+            "reply": "..."
+        },
+        {
+            "text": "Especially with all the traps I placed in the road ahead of you.",
+            "reply": "Sigh..."
+        }
+    ]]},
+    "next": "forest"
+}

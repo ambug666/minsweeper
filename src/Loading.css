@@ -1,0 +1,78 @@
+.default-loading-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-width: 100%;
+    margin: 0;
+    min-height: 100vh;
+    background-color: #3abe41;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.intro-loading-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-width: 100%;
+    margin: 0;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.bedroom-loading-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-width: 100%;
+    margin: 0;
+    min-height: 100vh;
+    background-color: #973c23;
+    color: #b78c41;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.water-loading-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-width: 100%;
+    margin: 0;
+    min-height: 100vh;
+    background-color: #1e7cb8;
+    color: black;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.bomb-loading {
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .bomb-loading {
+        animation: bomb-loading-spin infinite 2s linear;
+    }
+}
+
+@keyframes bomb-loading-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

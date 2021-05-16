@@ -1,0 +1,86 @@
+.sweeper-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    background-color: gray;
+    color: black;
+    font-size: large;
+    padding: 10px 10px 10px 10px;
+}
+
+.inner-sweeper-screen {
+    max-width: 640px;
+}
+
+.sweeper-title {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.sweeper-text {
+    margin-bottom: 10px; 
+    display: flex;
+    align-items: center;
+}
+
+.sweeper-big-container {
+    display: flex;
+}
+
+.sweeper-button-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.sweeper-button {
+    transition: 0.3s;
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+    margin-top: 6px;
+    color: black;
+    background-color: gray;
+    border: 2px solid black;
+    width: 120px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.sweeper-button:hover {
+    background-color: lightgray;
+    border: 2px solid white;
+    color: black;
+    transition: 0.3s;
+}
+
+.sweeper-radio-button-container {
+    margin-right: 8px;
+}
+
+.sweeper-radio-button {
+    margin-left: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.sweeper-checkbox-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.sweeper-checkbox {
+    margin-bottom: 4px;
+    display: flex;
+}

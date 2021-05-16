@@ -1,0 +1,43 @@
+{
+    "template": [
+        ["wildgrass","wildgrass","wildgrass","bottom-bank","bottom-bank","bottom-bank","stump/bottom-bank","bottom-bank","bottom-bank","bottom-bank","bottom-bank","bottom-bank","bottom-bank","bottom-bank","bottom-bank","bottom-bank","bottom-bank","bottom-bank","bottom-bank","rock3/wildgrass","rock3/wildgrass","wildgrass"],
+        ["rock3/wildgrass","wildgrass","bottom-right-bank","","","","","","","","","","","","","","","","","bottom-left-bank","wildgrass","rock/wildgrass"],
+        ["wildgrass","bottom-right-bank","","","","","","","","","","","","","","","","","","","bottom-left-bank","wildgrass"],
+        ["right-bank","","","","","","","","","","","","","","","","","","","","","left-bank"],
+        ["right-bank","","","","","","","","","","","","","","","","","","","","","left-bank"],
+        ["right-bank","","","","","","","","","","","","","","","doghouse_u/water-rock-in-water","","","","","","rock2/left-bank"],
+        ["right-bank","","","","","","","","","","","","","","top-left-bank","doghouse_b/top-right-bank","","","","","","left-bank"],
+        ["right-bank","","","","","","","","","","","","","top-left-bank","wildgrass","/wildgrass","rock2/top-right-bottom-bank","","","","","left-bank"],
+        ["right-bank","","","","","","","","","","","","","bottom-left-bank","small-yellow-tree/wildgrass","bottom-right-bank","","","","","","left-bank"],
+        ["rock2/right-bank","","","","","","","","","","","","","","bottom-left-right-bank","","","","","","","left-bank"],
+        ["right-bank","","","","","","","","","","","","","","","","","","","","","left-bank"],
+        ["right-bank","","","","","","","","","","","","","","","","","","","","","left-bank"],
+        ["right-bank","","","","","","waterrock/water","","","","","","","","","","","","","","","left-bank"],
+        ["right-bank","","","","","","","","","","","","","","","","","","","","","left-bank"],
+        ["right-bank","","","","","","","","","","","","","","","","","","","","","rock3/left-bank"],
+        ["right-bank","","","","","","","","","","","","","","","","","","","","","left-bank"],
+        ["rock2/wildgrass","top-right-bank","","","","","","","","","","","","","","","","","","","top-left-bank","wildgrass"],
+        ["wildgrass","wildgrass","top-right-bank","","","","","","","","","","","","","","","","top-left-bank","rock/top-bank","wildgrass","wildgrass"],
+        ["wildgrass","stump/wildgrass","wildgrass","top-bank","top-bank","top-bank","top-bank","top-bank","top-bank","top-bank","top-bank","top-bank","top-bank","top-bank","top-bank","top-bank","top-bank","top-bank","wildgrass","wildgrass","rock2/wildgrass","wildgrass"]
+    ],
+    "zoom": 1.1,
+    "tiles": { "EMPTY": "water2","BOMB": "water2", "DISPLAY": "water2", "UNKNOWN": "water" },
+    "trap": "mine",
+    "difficulty": 0.10,
+    "movingtrap": "fish",
+    "movingnumber": 11,
+    "restartText": "You've been blown to pieces! Want to try the level again?",
+    "dialog": {
+        "backgroundColor": "red",
+        "text": [[
+        {
+            "text": "Ah, I see you've found the pond where I raise my piranha.",
+            "reply": "Can I go around it?"
+        },
+        {
+            "text": "Not if you want to move forward. And it's stocked with a lot of fish. And some mines too.",
+            "reply": "Ok, then."
+        }]
+        ]},
+    "next": "merchant2"
+}

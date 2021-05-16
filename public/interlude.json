@@ -1,0 +1,36 @@
+{
+    "template": [],
+    "zoom": 1,
+    "tiles": { "EMPTY": "carpet_c2", "BOMB": "carpet_c2", "DISPLAY": "carpet_c2", "UNKNOWN": "carpet_c" },
+    "difficulty": 0.12,
+        "backgroundColor": "#3abe41",
+    "dialog": {
+        "backgroundColor": "red",
+        "screenColor": "#3abe41",
+        "text": [[
+        {
+            "text": "You're getting very close. In fact, you're almost at my tower.",
+            "reply": "Good."
+        },
+        {
+            "text": "There is still time to turn back, you know.",
+            "replies": [{"text": "You stole from me. I will destroy you!", "next": 0},
+                {"text": "Not until you return what you stole.", "next": 0},
+                {"text": "You know, you don't have to be a villain.", "next": 1}]
+        }
+    ],[
+        {
+            "text": "What? What would you have me do?",
+            "reply": "Be nice? Maybe do a good deed?"
+        },
+        {
+            "text": "But I am a villain. I do not do good deeds.",
+            "reply": "We all choose how to behave."
+        },
+        {
+            "text": "Really.",
+            "replies": [{"text": "I didn't choose vengeance. You can choose too.", "next": 0, "value": "love"}]
+        }
+    ]]},
+    "next": "moat"
+}

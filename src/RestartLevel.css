@@ -1,0 +1,51 @@
+.restart-level-box {
+    border: 2px solid gray;
+    background-color: rgba(252, 236, 247, 0.8);
+    border-radius: 5px;
+    padding: 18px 18px 18px 18px;
+}
+
+.restart-level-title {
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.restart-level-text {
+    margin-bottom: 8px;
+}
+
+.restart-level-footer {
+    display: flex;
+    justify-content: flex-end;
+    height: 38px;
+}
+
+.restart-level-button {
+    transition: 0.3s;
+    font-family: "Arial Rounded MT Bold", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 8px;
+    cursor: pointer;
+    border-radius: 16px;
+    outline: none;
+    position: absolute;
+    margin-top: 6px;
+}
+
+.restart-level-ok {
+    color: lightyellow;
+    background-color: darkred;
+    border: 2px solid red;
+}
+
+.restart-level-ok:hover {
+    background-color: red;
+    border: 2px solid darkred;
+    color: lightyellow;
+    transition: 0.3s;
+}

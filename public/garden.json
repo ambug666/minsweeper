@@ -1,0 +1,93 @@
+{
+    "template": [
+    ["grass","grass","grass","grass","grass","grass","grass","grass","wildgrass","grass","rock2/grass","grass","grass","grass","grass","grass","grass","grass","doghouse_u/grass","grass","grass","produce1/grass","produce1/grass","grass"],
+    ["grass","grass","rock/wildgrass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","doghouse_b/grass","grass","grass","produce2/grass","produce2/grass","grass"],
+    ["grass","wildgrass","","","","","","","","","","","","","","","","","grass","grass","grass","grass","grass","grass"],
+    ["grass","grass","","","","","","","","","","","","","","","","","dirt2","","","","grass","grass"],
+    ["grass","grass","","","","","","","","","","","","","","","","","dirt2","","","","grass","grass"],
+    ["tree_ul/grass","tree_ur/wildgrass","","","","","","","","","","","","","","","","","dirt2","","","","grass","grass"],
+    ["tree_l/grass","tree_r/grass","","","","","","","","","","","","","","","","","grass","grass","grass","grass","grass","grass"],
+    ["tree_bl/grass","tree_br/grass","","","","","","","","","","","","","","","","","grass","berries/field","berries/field","berries/field","grass","grass"],
+    ["grass","grass","","","","","","","","","","","","","","","","","grass","berries/field","berries/field","berries/field","grass","grass"],
+    ["grass","grass","","","","","","","","","","","","","","","","","grass","berries/field","berries/field","berries/field","grass","grass"],
+    ["rock3/wildgrass","grass","","","","","","","","","","","","","","","","","grass","grass","grass","grass","stump/grass","grass"],
+    ["grass","grass","","","","","","","","","","","","","","","","","wildgrass","fruit-trees/field","fruit-trees/field","fruit-trees/field","grass","grass"],
+    ["grass","grass","","","","","","","","","","","","","","","","","grass","fruit-trees/field","fruit-trees/field","fruit-trees/field","grass","grass"],
+    ["grass","rock2/grass","","","","","","","","","","","","","","","","","grass","fruit-trees/field","fruit-trees/field","fruit-trees/field","grass","grass"],
+    ["grass","grass","","","","","","","","","","","","","","","","","grass","grass","grass","grass","grass","wildgrass"],
+    ["grass","grass","","","","","","","","","","","","","","","","","grass","sprouts/field","sprouts/field","sprouts/field","grass","grass"],
+    ["grass","grass","","","","","","","","","","","","","","","","","grass","sprouts/field","sprouts/field","sprouts/field","grass","rock/grass"],
+    ["bucket/grass","full-bucket/grass","","","","","","","","","","","","","","","","","grass","sprouts/field","sprouts/field","sprouts/field","grass","grass"],
+    ["grass","full-bucket/grass","","","","","","","","","","","","","","","","","grass","grass","grass","grass","grass","grass"],
+    ["fence-end-right/grass","fence/grass","fence/grass","fence/grass","fence/grass","fence/grass","fence/grass","fence/grass","fence/grass","fence/grass","fence/grass","fence/grass","fence/grass","fence/grass","fence/grass","fence/grass","fence/grass","fence/grass","fence/grass","fence/grass","fence/grass","fence/grass","fence/wildgrass","fence-end-left/wildgrass"],
+    ["grass","grass","grass","grass","grass","rock2/grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","grass","wildgrass","wildgrass"]    
+    ],
+    "zoom": 1.1,
+    "tiles": { "EMPTY": "dirt2","BOMB": "dirt2", "DISPLAY": "dirt2", "UNKNOWN": "field" },
+    "trap": "bomb",
+    "difficulty": 0.12,
+    "movingtrap": "gopher",
+    "movingnumber": 7,
+    "restartText": "You've been blown to pieces! Want to try the level again?",
+    "dialog": {
+        "backgroundColor": "red",
+        "text": [[
+        {
+            "text": "Welcome to my garden.",
+            "reply": "Your garden?"
+        },
+        {
+            "text": "Oh yes, all the lands across the river are mine. Villainy pays quite well, you know.",
+            "reply": "You don't say?"
+        },
+        {
+            "text": "Yes, thanks to my evil, I have riches galore.",
+            "reply": "Then why steal from me?"
+        },
+        {
+            "text": "Ah, well, why do you think?",
+            "replies": [{"text": "To get richer?", "next": 1},{"text": "Because you're lonely?", "next": 2}]
+        }],[
+        {
+            "text": "Yes, exactly. I will never be satisfied, until I have everything!",
+            "reply": "Well, someone has to stop you."
+        },
+        {
+            "text": "And you think it will be you?",
+            "reply": "I've made it this far."
+        },
+        {
+            "text": "Ah, but what you don't know is that my garden is not only trapped, but has trained attack gophers moving underground.",
+            "reply": "That can't be good."
+        },
+        {
+            "text": "Well, it won't be easy. I'd say good luck, but it is too late for that.  Bwahahahahahahaha!",
+            "reply": "..."
+        }],[
+        {
+            "text": "What? What did you say?",
+            "reply": "You steal to lure people close because you're lonely."
+        },
+        {
+            "text": "Lonely? You think the life of an evil mastermind is lonely?",
+            "reply": "I hear it's lonely at the top."
+        },
+        {
+            "text": "Well, you will never know that, because between my underground mines and trained burrowing attack gophers, you'll never get past my garden.",
+           "replies": [{"text": "Attack gophers?", "next": 3},{"text": "Well, I'll try my best.", "next": 0}]
+        }],[
+        {
+            "text": "Yes, I've trained them myself to burrow underground and attack interlopers.",
+            "reply": "That's quite talented actually."
+        },
+        {
+            "text": "You're impressed?",
+            "reply": "Very!"
+        },
+        {
+            "text": "Huh. That was very nice of you. You still will never survive my garden, but I will make it a little easier for that. But don't forget, I'm a true villain at heart!",
+           "replies": [{"text": "I won't!", "next": 0, "value": "easier"}]
+        }]
+        ]},
+    "next": "lake"
+}

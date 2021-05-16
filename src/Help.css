@@ -1,0 +1,85 @@
+.help-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    font-size: large;
+    padding: 10px 10px 10px 10px;
+}
+
+.inner-help-screen {
+    max-width: 640px;
+}
+
+.help-title {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.help-text {
+    margin-bottom: 10px;
+}
+
+.help-text-summary {
+    margin-bottom: 10px;
+    color: yellow;
+    font-style: italic;
+}
+
+.green-number {
+    color: green;
+    font-weight: bolder;
+}
+
+.blue-number {
+    color: blue;
+    font-weight: bolder;
+}
+
+.help-map-container {
+    display: flex;
+}
+
+.help-map-map-container {
+    padding-top: 60px;
+}
+
+.help-map-text-container {
+ margin-left: 6px;
+}
+
+.help-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.help-button {
+    transition: 0.3s;
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+    margin-top: 6px;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    width: 120px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.help-button:hover {
+    background-color: rgb(53, 52, 52);
+    border: 2px solid white;
+    color: white;
+    transition: 0.3s;
+}

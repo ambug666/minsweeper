@@ -1,0 +1,49 @@
+{
+    "template": [
+    ["wall_u","wall_u","wall_u","wall_u","wall_u","wall_u","wall_u","wall_u","wall_u","wall_u","wall_u","/wall_u","wall_u","wall_u","wall_u"],
+    ["wall_c","wall_c","picture/wall_c","wall_c","wall_c","wall_c","wall_c","wall_c","wall_c","wall_c","wall_c","case_u/wall_c","case_u/wall_c","wall_c","wall_c"],
+    ["wall_b","wall_b","wall_b","wall_b","wall_b","wall_b","wall_b","wall_b","wall_b","wall_b","wall_b","case_c/wall_b","case_c/wall_b","wall_b","wall_b"],
+    ["shadow/floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","case_b/floor","case_b/floor","floor","floor"],
+    ["shadow/floor","bed_ul/floor","bed_ur/floor","carpet_ul", "carpet_u", "carpet_u", "carpet_u","carpet_u", "carpet_u", "carpet_u","carpet_u", "carpet_u", "carpet_u", "carpet_ur", "floor"],
+    ["shadow/floor","bed_l/floor","bed_r/floor","carpet_l", "", "", "", "", "", "", "", "", "", "carpet_r","floor"],
+    ["shadow/floor","bed_bl/floor","bed_br/floor","carpet_l", "", "", "", "", "", "", "", "", "", "carpet_r","floor"],
+    ["shadow/floor","floor","floor","carpet_l", "", "", "", "", "", "", "", "", "", "carpet_r","floor"],
+    ["shadow/floor","floor","floor","carpet_l", "", "", "", "", "", "", "", "", "", "carpet_r","floor"],
+    ["shadow/floor","floor","floor","carpet_l", "", "", "", "", "", "", "", "", "", "carpet_r","floor"],
+    ["shadow/floor","floor","floor","carpet_l", "", "", "", "", "", "", "", "", "", "carpet_r","floor"],
+    ["shadow/floor","floor","floor","carpet_l", "", "", "", "", "", "", "", "", "", "carpet_r","floor"],
+    ["shadow/floor","floor","floor","carpet_l", "", "", "", "", "", "", "", "", "", "carpet_r","floor"],
+    ["shadow/floor","floor","floor","carpet_l", "", "", "", "", "", "", "", "", "", "carpet_r","floor"],
+    ["shadow/floor","floor","floor","carpet_bl", "carpet_b", "carpet_b", "carpet_b", "carpet_b", "carpet_b", "carpet_b", "carpet_b", "carpet_b", "carpet_b", "carpet_br", "floor"],
+    ["shadow/floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor","floor"]
+    ],
+    "zoom": 1.5,
+    "tiles": { "EMPTY": "carpet_c2", "BOMB": "carpet_c2", "DISPLAY": "carpet_c2", "UNKNOWN": "carpet_c" },
+    "difficulty": 0.12,
+    "dialog": {
+        "backgroundColor": "red",
+        "showClick": "true",
+        "text": [[
+        {
+            "text": "Oh good, you're awake... finally!",
+            "reply": "..."
+        },
+        {
+            "text": "Allow me to introduce myself. I am an evil villain who has stolen something valuable from you.",
+            "reply": "..."
+        },
+        {
+            "text": "I know you might want to get it back, so I have placed a number of obstacles in your way.",
+            "reply": "..."
+        },
+        {
+            "text": "You might as well give up now.",
+            "reply": "..."
+        },
+        {
+            "text": "Oh, by the way, I booby trapped your rug.",
+            "reply": "What?"
+        }
+    ]]},
+    "next": "pathway"
+}

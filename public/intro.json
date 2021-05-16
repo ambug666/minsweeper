@@ -1,0 +1,26 @@
+{
+    "template": [],
+    "zoom": 1,
+    "tiles": { "EMPTY": "carpet_c2", "BOMB": "carpet_c2", "DISPLAY": "carpet_c2", "UNKNOWN": "carpet_c" },
+    "difficulty": 0.12,
+    "backgroundColor": "#1a1e1e",
+    "dialog": {
+        "backgroundColor": "black",
+        "textColor": "white",
+        "showClick": "true",
+        "text": [[
+        {
+            "text": "Pssst....",
+            "reply": "zzz"
+        },
+        {
+            "text": "Hey! Hey wake up!",
+            "reply": "zzz"
+        },
+        {
+            "text": "WAKE UP!",
+            "reply": "zz....."
+        }
+    ]]},
+    "next": "bedroom"
+}

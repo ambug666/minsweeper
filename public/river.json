@@ -1,0 +1,61 @@
+{
+    "template": [
+    ["watercliff-ul", "waterfall-ul","waterfall-ur","waterfall-ul","waterfall-ur","waterfall-ul","waterfall-ur","waterfall-ul","waterfall-ur","waterfall-ul","waterfall-ur","waterfall-ul","waterfall-ur", "watercliff-ur"],
+    ["watercliff-bl", "waterfall-bl","waterfall-br","waterfall-bl","waterfall-br","waterfall-bl","waterfall-br","waterfall-bl","waterfall-br","waterfall-bl","waterfall-br","waterfall-bl","waterfall-br", "watercliff-br"],
+    ["right-bank", "","","","","","","","","","","","", "left-bank"],
+    ["right-bank", "","","","","","","","","","","","", "left-bank"],
+    ["right-bank", "","","","","","","","","","","","", "rock2/left-bank"],
+    ["right-bank", "","","","","","","","","","","","", "left-bank"],
+    ["right-bank", "","","","","","","","waterrock2/water","","","","", "left-bank"],
+    ["right-bank", "","","","","","","","","","","","", "left-bank"],
+    ["right-bank", "","","","","","","","","","","","", "left-bank"],
+    ["right-bank", "","","","","","","","","","","","", "left-bank"],
+    ["dirt", "bridge/water","","","","","","","","","","","bridge/water", "dirt"],
+    ["right-bank", "","","","","","","","","","","","", "left-bank"],
+    ["right-bank", "","","","","","","","","","","","", "left-bank"],
+    ["right-bank", "","","","","","","","","","","","", "left-bank"],
+    ["right-bank", "","","","","","","","","","","","", "left-bank"],
+    ["right-bank", "","","","","","","","","","","","", "left-bank"],
+    ["right-bank", "","","waterrock/water","","","","","","","","","", "left-bank"],
+    ["right-bank", "","","","","","","","","","","","", "left-bank"],
+    ["right-bank", "","","","","","","","","","","","", "left-bank"],
+    ["rock2/right-bank", "","","","","","","","","","","","", "left-bank"]
+    ],
+    "zoom": 1.25,
+    "tiles": { "EMPTY": "water2","BOMB": "water2", "DISPLAY": "water2", "UNKNOWN": "water" },
+    "trap": "mine",
+    "difficulty": 0.12,
+    "movingtrap": "fish",
+    "movingnumber": 3,
+    "restartText": "You've been blown to pieces! Want to try the level again?",
+    "dialog": {
+        "backgroundColor": "red",
+        "text": [[
+        {
+            "text": "Uh-oh, looks like the bridge is out.",
+            "reply": "I know."
+        },
+        {
+            "text": "I'm sure you're going to try to ford the river, but be careful. I've filled it with mines.",
+            "reply": "Of course you have."
+        },
+        {
+            "text": "But worse, I've stocked it with ravenous piranha, which will move about as you try to find the safest route. When they move, they may change the bomb count or remove your flags.",
+            "replies": [{"text": "OK.", "next": 0}, {"text": "I'm sorry; did you say piranha?", "next": 1}]
+        }
+    ],[
+        {
+            "text": "Oh yes! I'm very proud of them!",
+            "reply": "Where did you get these piranha?"
+        },
+        {
+            "text": "Oh. Well, nice of you to ask. I happen to enjoy collecting tropical fish and I knew some people. I have all sorts of exotic sea-life.",
+            "reply": "Neat!"
+        },
+        {
+            "text": "But these, these will gnaw on your bones!",
+            "replies": [{"text": "Sigh..", "next": 0, "value": "love"}]
+        }
+    ]]},
+    "next": "garden"
+}

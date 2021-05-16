@@ -1,0 +1,65 @@
+{
+    "template": [
+    ["tree_ul/grass", "tree_ur/grass", "tree_ul/grass", "tree_ur/grass", "grass", "tree_bl/grass", "tree_br/grass", "grass", "grass", "grass",
+     "grass", "grass", "grass", "grass", "grass", "rock2/grass", "grass", "grass", "grass", "grass", "tree_l/grass", "tree_r/grass", "grass", "grass", "grass"],
+    ["tree_l/grass", "tree_r/grass", "tree_l/grass", "tree_r/grass", "rock2/grass", "grass", "grass", "", "", "", "", "", "", "", "",
+     "", "", "", "", "grass", "tree_bl/grass", "tree_br/grass", "grass", "tree_ul/grass", "tree_ur/grass"],
+    ["tree_bl/grass", "tree_br/grass", "tree_bl/grass", "tree_br/grass", "tree_ul/grass", "tree_ur/grass", "", "", "", "", "", "", "", "", "",
+     "", "", "", "", "", "rock/grass", "grass", "grass", "tree_l/grass", "tree_r/grass"],
+    ["grass", "rock2/grass", "grass", "grass", "tree_l/grass", "tree_r/grass", "", "", "", "", "", "", "", "", "",
+     "", "", "", "", "", "grass", "tree_ul/grass", "tree_ur/grass", "tree_bl/grass", "tree_br/grass"],
+    ["grass", "tree_ul/grass", "tree_ur/grass", "rock/grass", "tree_bl/grass", "tree_br/grass", "", "", "", "", "", "", "", "", "",
+     "", "", "", "", "", "grass", "tree_l/grass", "tree_r/grass", "rock/grass", "grass"],
+    ["grass", "tree_l/grass", "tree_r/grass", "grass", "grass", "grass", "", "", "", "", "", "", "", "", "",
+     "", "", "", "", "", "rock2/grass", "tree_bl/grass", "tree_br/grass", "grass", "grass"],
+    ["grass", "tree_bl/grass", "tree_br/grass", "grass", "grass", "stump/grass", "", "", "", "", "", "", "", "", "",
+     "", "", "", "", "", "grass", "grass", "tree_ul/grass", "tree_ur/grass", "grass"],
+    ["dirt", "dirt", "dirt", "dirt", "rock2/grass", "grass", "", "", "", "", "", "", "", "", "",
+     "", "", "", "", "", "grass", "stump/grass", "tree_l/grass", "tree_r/dirt", "grass"],
+    ["dirt", "dirt", "dirt", "dirt", "grass", "grass", "", "", "", "", "", "", "", "", "",
+     "", "", "", "", "", "grass", "grass", "tree_bl/dirt", "tree_br/grass", "dirt"],
+    ["dirt", "dirt", "dirt", "tree_ul/dirt", "tree_ur/grass", "grass","", "", "", "", "", "", "", "", "",
+     "", "", "", "", "", "tree_ul/grass", "tree_ur/grass", "grass", "stump/grass", "dirt"],
+    ["rock2/grass", "grass", "grass", "tree_l/grass", "tree_r/grass", "rock2/grass", "", "", "", "", "", "", "", "", "",
+     "", "", "", "", "", "tree_l/grass", "tree_r/grass", "grass", "tree_ul/grass", "tree_ur/grass"],
+    ["tree_ul/grass", "tree_ur/grass", "grass", "tree_bl/grass", "tree_br/grass", "grass", "", "", "", "", "", "", "", "", "",
+     "", "", "", "", "", "tree_bl/grass", "tree_br/grass", "rock2/grass", "tree_l/grass", "tree_r/grass"],
+    ["tree_l/grass", "tree_r/grass", "rock/grass", "tree_ul/grass", "tree_ur/grass", "grass", "", "", "", "", "", "", "", "", "",
+     "", "", "", "", "", "grass", "grass", "grass", "tree_bl/grass", "tree_br/grass"],
+    ["tree_bl/grass", "tree_br/grass", "grass", "tree_l/grass", "tree_r/grass", "grass", "", "", "", "", "", "", "", "", "",
+     "", "", "", "", "", "grass", "rock/grass", "rock/grass", "grass",  "tree_ul/grass"],
+    ["grass", "grass", "grass", "tree_bl/grass", "tree_br/grass", "rock/grass", "", "", "", "", "", "", "", "", "",
+     "", "", "", "", "", "grass", "tree_ul/grass", "tree_ur/grass", "grass",  "tree_l/grass"],
+    ["grass", "stump/grass", "grass", "grass", "grass", "grass", "rock2/grass", "", "", "", "", "", "", "", "",
+     "", "", "", "", "grass", "grass","tree_l/grass", "tree_r/grass", "grass",  "tree_bl/grass"],
+    ["grass", "grass", "tree_ul/grass", "tree_ur/grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "rock/grass", "grass", "grass", "grass",
+     "grass", "grass", "grass", "grass", "grass", "grass", "tree_bl/grass", "tree_br/grass", "grass", "grass"]
+    ],
+    "zoom": 1.25,
+    "tiles": { "EMPTY": "wildgrass2","BOMB": "wildgrass2", "DISPLAY": "wildgrass2", "UNKNOWN": "grass3" },
+    "trap": "bomb",
+    "difficulty": 0.14,
+    "restartText": "You've been blown to pieces! Want to try the level again?",
+    "dialog": {
+        "backgroundColor": "red",
+        "text": [[
+        {
+            "text": "I never expected you to make it past that path!",
+            "reply": "Uh-huh..."
+        },
+        {
+            "text": "But you will never make it past all the buried bombs in this clearing!",
+            "replies": [{"text": "Whatever.", "next": 0}, {"text": "Why are you doing this?", "next": 1}]
+        }
+    ],[
+        {
+            "text": "Well, I ... ...what?",
+            "reply": "Why all the bombs?"
+        },
+        {
+            "text": "Well... because I'm a villain. It's what I do. I steal things and lay traps! And then lure you to your DOOM!",
+            "replies": [{"text": "I see....", "next": 0, "value": "love"}]
+        }
+    ]]},
+    "next": "merchant1"
+}
